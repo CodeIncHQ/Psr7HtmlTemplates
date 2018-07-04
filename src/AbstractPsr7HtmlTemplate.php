@@ -179,7 +179,7 @@ abstract class AbstractPsr7HtmlTemplate implements Psr7HtmlTemplateInterface
 
     /**
      * @inheritdoc
-     * @return ResponseInterface
+     * @return HtmlResponse
      */
 	public function getResponse():ResponseInterface
     {

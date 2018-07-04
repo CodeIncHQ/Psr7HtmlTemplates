@@ -21,6 +21,7 @@
 //
 declare(strict_types=1);
 namespace CodeInc\Psr7HtmlTemplates;
+use CodeInc\Psr7Responses\HtmlResponse;
 use Psr\Http\Message\ResponseInterface;
 
 
@@ -35,7 +36,7 @@ interface Psr7HtmlTemplateInterface
     /**
      * Returns the PSR-7 response for the template.
      *
-     * @return ResponseInterface
+     * @return ResponseInterface|HtmlResponse
      */
     public function getResponse():ResponseInterface;
 }
