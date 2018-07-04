@@ -38,5 +38,5 @@ interface Psr7HtmlTemplateInterface
      *
      * @return ResponseInterface|HtmlResponse
      */
-    public function getResponse():ResponseInterface;
+    public function buildResponse():ResponseInterface;
 }
