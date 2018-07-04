@@ -181,7 +181,7 @@ abstract class AbstractPsr7HtmlTemplate implements Psr7HtmlTemplateInterface
      * @inheritdoc
      * @return HtmlResponse
      */
-	public function getResponse():ResponseInterface
+	public function buildResponse():ResponseInterface
     {
         return new HtmlResponse(
             $this->getHeader()
