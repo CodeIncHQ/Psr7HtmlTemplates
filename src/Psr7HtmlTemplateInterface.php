@@ -39,4 +39,11 @@ interface Psr7HtmlTemplateInterface
      * @return ResponseInterface|HtmlResponse
      */
     public function buildResponse():ResponseInterface;
+
+    /**
+     * Returns the HTML code of the response.
+     *
+     * @return string
+     */
+    public function getResponseHtml():string;
 }
